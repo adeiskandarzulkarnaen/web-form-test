@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Form Login</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    </head>
+    <body>
+        <div class="kotak-login">
+            <h1>Login</h1>
+            <form>
+                Username:
+                <input 
+                    type="text" 
+                    name="namadepan" 
+                    class="form_login" 
+                    placeholder="masukan username" 
+                    required 
+                />
+                <br />
+
+                Password:
+                <input 
+                    type="password" 
+                    name="password" 
+                    class="form_login" 
+                    placeholder="input password" required 
+                />
+                
+                <input 
+                    name="btnKirim" 
+                    type="submit" 
+                    id="btnKirim" 
+                    value="Kirim" 
+                    class="tombol_login" 
+                />
+
+                <input 
+                    name="btnCancel" 
+                    type="reset" 
+                    id="btnCancel" 
+                    value="Cancel" 
+                    class="tombol_cancel" 
+                />
+            </form>
+            <p>
+                Perhatikan bahwa ketika Anda mengetikkan karakter karakter dalam suatu 
+                field password, browser akan
+                menampilkan asterisk atau bullet saja, bukannya karakter yang diketikkan.
+            </p>
+        </div>
+    </body>
+</html>
